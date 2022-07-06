@@ -12,6 +12,7 @@
   /* logo colors */
   --blue-logo-cl: #2196f3;
   --dark-logo-cl: #000000;
+  --white-logo-cl: #ffffff;
   /* others colors */
   --footer-primary-cl: rgba(255, 255, 255, 0.6);
 }
@@ -40,30 +41,34 @@
 body {
   font-family: var(--main-font);
   color: var(--main-tx-cl);
-  font-style: normal;
 }
 /* logo */
 .logo {
   font-family: var(--secondary-font);
-  color: #000000;
+  color: var(--dark-logo-cl);
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
 }
 .logo-element {
-  color: #2196f3;
+  color: var(--blue-logo-cl);
 }
+/* heder */
 .header-link {
   font-family: var(--main-font);
-  color: var(--secondary-tx-cl);
+  color: var(--main-tx-cl);
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
 }
 .contacts-link {
-  color: var(--main-tx-cl);
+  font-family: var(--main-font);
+  color: var(--secondary-tx-cl);
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -80,10 +85,10 @@ body {
   background-color: var(--dark-bg-cl);
 }
 .hero-item {
+  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
-
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -96,42 +101,44 @@ body {
 /* work section */
 
 .work-text {
-  font-weight: 400;
+  
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: #757575;
 }
 .work-title {
+  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  
 }
 /* lessons section/Чем мы занимаемся */
 .lessons-title {
+  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
   letter-spacing: 0.03em;
-  color: #212121;
+  
 }
 /* team section/Наша команда */
 .team-job {
-  font-weight: 400;
-  font-size: 16px;
+    font-size: 16px;
   line-height: calc(19 / 16);
   letter-spacing: 0.03em;
   color: #757575;
 }
 .team-name {
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
   letter-spacing: 0.03em;
-  color: #212121;
+  
 }
 /* footer section/футер */
 .footer {
