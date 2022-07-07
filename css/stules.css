@@ -194,12 +194,14 @@ body {
   letter-spacing: 0.03em;
   color: #ffffff;
   cursor: pointer;
+  background-color: #2196f3;
+
 }
 .text-btn-withe:hover,
 .text-btn-withe:focus,
 .text-btn:hover,
 .text-btn:focus {
-  background: #2196f3;
+  background: #188ce8;;
 }
 .portfolio-text {
   font-family: 'Roboto';
