@@ -137,9 +137,7 @@ body {
 }
 /* footer section/футер */
 .footer {
-  position: absolute;
-  width: 1600px;
-  background: #2f303a;
+   background: #2f303a;
 }
 .dark {
   color: #ffffff;
