@@ -29,9 +29,6 @@
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
   background-color: #2196f3;
@@ -46,7 +43,6 @@ body {
 .logo {
   font-family: var(--secondary-font);
   color: var(--dark-logo-cl);
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
@@ -57,22 +53,22 @@ body {
 }
 /* heder */
 .header-link {
-  font-family: var(--main-font);
   color: var(--main-tx-cl);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
 }
 .contacts-link {
-  font-family: var(--main-font);
-  color: var(--secondary-tx-cl);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
+
+  color: #757575;
+}
+.current-link {
+  color: #2196f3;
 }
 .contacts-link:hover,
 .contacts-link:focus,
@@ -85,11 +81,9 @@ body {
   background-color: var(--dark-bg-cl);
 }
 .hero-item {
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
@@ -107,7 +101,6 @@ body {
   color: #757575;
 }
 .work-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -116,13 +109,20 @@ body {
 }
 /* lessons section/Чем мы занимаемся */
 .lessons-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
   letter-spacing: 0.03em;
 }
 /* team section/Наша команда */
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
 .team-job {
   font-size: 16px;
   line-height: calc(19 / 16);
@@ -130,7 +130,6 @@ body {
   color: #757575;
 }
 .team-name {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
@@ -145,10 +144,10 @@ body {
 .dark {
   color: #ffffff;
 }
-.adress-maps {
-  font-family: 'Roboto';
+.address {
   font-style: normal;
-  font-weight: 400;
+}
+.adress-maps {
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -156,64 +155,52 @@ body {
 }
 .footer-mail,
 .footer-tel {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-mail:hover,
-.footer-mail:focus {
-  background-color: #188ce8;
-}
+.footer-mail:focus,
 .footer-tel:hover,
 .footer-tel:focus {
-  background-color: #188ce8;
+  color: #188ce8;
 }
 /*portfolio  */
+
 .text-btn {
-  font-family: 'Roboto';
-  font-style: normal;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
-  text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
   cursor: pointer;
 }
 .text-btn-withe {
-  font-family: 'Roboto';
-  font-style: normal;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
-  text-align: center;
   letter-spacing: 0.03em;
+  background-color: #2196f3;
   color: #ffffff;
   cursor: pointer;
-  background-color: #2196f3;
-
 }
 .text-btn-withe:hover,
 .text-btn-withe:focus,
 .text-btn:hover,
 .text-btn:focus {
-  background: #188ce8;;
+  background-color: #188ce8;
+  color: #ffffff;
 }
 .portfolio-text {
-  font-family: 'Roboto';
-  font-style: normal;
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
   color: #757575;
 }
 .portfolio-title {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: calc(36 / 16);
