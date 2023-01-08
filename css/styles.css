@@ -5,9 +5,9 @@
   --secondari-text-color: #2e2f42;
   --withe-logo-color: #f4f4fd;
   --logo-hover-color: #4d5ae5;
-  --header-color: #ffffff;
+  --hero-text-color: #ffffff;
   --hover-btn-color: #404bbf;
-  --footer-text-color: #E7E9FC;
+  --footer-text-color: #e7e9fc;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -66,29 +66,31 @@ ul {
 .contact-tel {
   font-size: 16px;
   line-height: 1.5;
-
+  font-style: normal;
   color: inherit;
 }
-/*==================================hiro====================================*/
+/*==================================hero====================================*/
+.hero {
+  background: var(--secondari-text-color);
+}
 .main-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.11;
   text-align: center;
 
-  color: var(--header-color);
-  background: var(--secondari-text-color);
+  color: var(--hero-text-color);
 }
 .modal-btn {
-  font-weight: 500;
+  font-weight: 500;                                
   font-size: 16px;
   line-height: 1.5;
   cursor: pointer;
-
+  font-family: inherit;
   display: flex;
   align-items: center;
 
-  color: #ffffff;
+  color: var(--hero-text-color);
   background-color: var(--logo-hover-color);
 }
 .modal-btn:hover,
@@ -117,7 +119,7 @@ ul {
   color: var(--secondari-text-color);
 }
 /*-----------------------------team---------------------------------------------------*/
-.team-title{
+.team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -125,24 +127,50 @@ ul {
 
   color: var(--secondari-text-color);
 }
-.developer-name{
+.developer-name {
   font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
+  font-size: 20px;
+  line-height: 1.2;
 
-color: var(--secondari-text-color);
+  color: var(--secondari-text-color);
 }
-.developer-descriptions{
+.developer-descriptions {
   font-size: 16px;
-line-height: 1.5;
+  line-height: 1.5;
 }
 /*==================================footer====================================*/
-.footer{
+.footer {
   background-color: var(--secondari-text-color);
 }
-.footer-text{
+.footer-text {
   font-size: 16px;
-line-height: 1.5;
+  line-height: 1.5;
 
-color: var(--footer-text-color);
+  color: var(--footer-text-color);
+}
+/*================///////////////////////////////======portfolio=========////////////////=================*/
+.filter-btn-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: inherit;
+  color: var(--logo-hover-color);
+  background-color: var(--withe-logo-color);
+  cursor: pointer;
+}
+.filter-btn-text:focus,
+.filter-btn-text:hover {
+  background: var(--hover-btn-color);
+  color: #ffffff;
+}
+.project-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  color: var(--secondari-text-color);
+}
+.project-text {
+  font-size: 16px;
+  line-height: 1.5;
 }
