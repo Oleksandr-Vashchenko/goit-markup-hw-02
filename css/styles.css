@@ -155,7 +155,7 @@ ul {
   line-height: 1.5;
   font-family: inherit;
   color: var(--logo-hover-color);
-  background-color: var(--withe-logo-color);
+  
   cursor: pointer;
 }
 .filter-btn-text:focus,
