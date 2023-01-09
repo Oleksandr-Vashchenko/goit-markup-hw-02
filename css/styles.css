@@ -12,6 +12,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--primari-text-color);
+  background-color: #ffffff;
 }
 a {
   text-decoration: none;
@@ -29,19 +30,9 @@ ul {
   color: var(--logo-hover-color);
 }
 .logo-dark {
-  font-family: var(--secondari-font);
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-
   color: var(--secondari-text-color);
 }
 .logo-withe {
-  font-family: var(--secondari-font);
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.16;
-
   color: var(--withe-logo-color);
 }
 /*-----------HOVER--------------*/
@@ -82,7 +73,7 @@ ul {
   color: var(--hero-text-color);
 }
 .modal-btn {
-  font-weight: 500;                                
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   cursor: pointer;
@@ -119,6 +110,9 @@ ul {
   color: var(--secondari-text-color);
 }
 /*-----------------------------team---------------------------------------------------*/
+.team {
+  background-color: var(--withe-logo-color);
+}
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -155,7 +149,7 @@ ul {
   line-height: 1.5;
   font-family: inherit;
   color: var(--logo-hover-color);
-  
+
   cursor: pointer;
 }
 .filter-btn-text:focus,
