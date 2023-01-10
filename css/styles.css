@@ -20,13 +20,13 @@ a {
 ul {
   list-style: none;
 }
-/*==================================ttttttttttttttt====================================*/
+/*==================================logo styles====================================*/
 .logo {
   font-family: var(--secondari-font);
+  font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
-
+  
   color: var(--logo-hover-color);
 }
 .logo-dark {
@@ -167,4 +167,5 @@ ul {
 .project-text {
   font-size: 16px;
   line-height: 1.5;
+  color: var(--primari-text-color);
 }
